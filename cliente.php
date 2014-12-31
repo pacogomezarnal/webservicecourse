@@ -2,9 +2,12 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Documento sin título</title>
+<title>Cliente Prueba API</title>
 </head>
-
+<?php
+	$jsonObj = file_get_contents('http://edutictic.esy.es/api/api.php');
+	echo $jsonObj;
+?>
 <body>
 </body>
 </html>

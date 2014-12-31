@@ -1,10 +1,7 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Documento sin título</title>
-</head>
+<?php
+require_once("encode.php");
 
-<body>
-</body>
-</html>
+$jsonObject=new encode();
+
+echo $jsonObject->encodeJSON("OK");
+?>
